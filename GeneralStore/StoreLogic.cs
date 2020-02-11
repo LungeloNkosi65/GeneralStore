@@ -43,7 +43,6 @@ namespace GeneralStore
             Console.WriteLine("Product is unavailable.");
             return;
         }
-
         public void ProcessSupplyOrder(Supplier supplier, Product product, int quantity)
         {
             foreach (var item in supplier.SupplyableProducts)
